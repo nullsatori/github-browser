@@ -1,0 +1,109 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap");
+
+$primary: #8875cb;
+$secondary: #19245b;
+$main-color: #f44336;
+$secondary-color: #9fa4d0;
+$main-color: #18191a;
+* {
+  background-color: $main-color;
+  font-family: "Roboto Mono", monospace;
+}
+header {
+  display: flex;
+  margin: 5% auto;
+  width: 20%;
+  justify-content: center;
+  p {
+    color: $secondary-color;
+    font-size: 2rem;
+  }
+}
+
+.search {
+  width: 100%;
+  position: relative;
+  display: flex;
+}
+
+.searchTerm {
+  width: 100%;
+  border: 3px solid $primary;
+  padding: 5px;
+  border-radius: 5px;
+  outline: none;
+}
+
+.form {
+  width: 100%;
+  .fields {
+    width: 100%;
+    display: inline-flex;
+    input {
+      width: 100%;
+      border: none;
+      color: $primary;
+      outline: none;
+    }
+  }
+}
+.searchButton {
+  width: 40px;
+  height: 36px;
+  border: 1px solid $primary;
+  background: $primary;
+  text-align: center;
+  color: #fff;
+  border-radius: 0 5px 5px 0;
+  cursor: pointer;
+  font-size: 20px;
+}
+
+/*Resize the wrap to see the search bar change!*/
+.wrap {
+  width: 30%;
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.card {
+  margin: 2% auto;
+  width: 15%;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  align-items: center;
+  border: 2px solid dimgrey;
+  border-radius: 1%;
+  .content {
+    color: white;
+  }
+  .image {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    flex-direction: column;
+  }
+  img {
+    max-width: 100%;
+    background-size: cover;
+  }
+}
+.description,
+.header,
+.meta,
+.extra {
+  text-align: center;
+}
+.output {
+  display: flex;
+  margin: 0 auto;
+  width: 100%;
+  h1 {
+    margin: 0 auto;
+    color: white;
+    text-transform: capitalize;
+  }
+}

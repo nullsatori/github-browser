@@ -8,7 +8,10 @@
     "@testing-library/user-event": "^12.8.3",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
-    "react-scripts": "4.0.3",
+    "react-scripts": "^4.0.3",
+    "reseter.css": "^2.0.0",
+    "sass": "^1.43.5",
+    "semantic-ui-react": "^2.0.4",
     "web-vitals": "^1.1.2"
   },
   "scripts": {
@@ -34,5 +37,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "prettier": "2.5.0"
   }
 }
